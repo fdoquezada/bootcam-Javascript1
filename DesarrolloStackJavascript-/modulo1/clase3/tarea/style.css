@@ -1,0 +1,50 @@
+body {
+    height: 665px;
+    background-image:  url(https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_1280.png);
+    background-size: 10 ren;
+}
+
+h1 {
+    color: #fff;
+
+}
+
+
+.soldados { 
+    color: red; 
+    letter-spacing: 1;
+    width: 35%;
+    border-style: outset; border-width: 10px; 
+    padding: 10px;
+}
+
+
+.losmalos { 
+   color: red; 
+}
+
+.Rebeldes{ 
+    color: blue; 
+ }
+
+.apoyo{ 
+    color: red; 
+ }
+
+ .apoyo1{ 
+    color: blue; 
+ }
+
+#DarthVader {
+    color: red;
+    font-size:200%;
+
+}
+
+
+#LukeSkywalker {
+    color: blue;
+    font-size:200%;
+    font-family: italic;
+
+}

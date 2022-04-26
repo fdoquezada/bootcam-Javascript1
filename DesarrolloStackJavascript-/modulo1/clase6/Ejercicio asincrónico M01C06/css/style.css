@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+*{margin: 0; padding: 0;}
+
+body{
+    height: 665px;
+    background-image:  url(https://img.freepik.com/vector-gratis/sol-brilla-cielo-azul-nubes-fondo-realista_1284-10467.jpg?w=2000);
+    background-size:10 ren;
+}
+
+
+.card {text-align: center;
+    margin-left: 30%;
+}
+    
+a {
+    text-align: center;
+
+}

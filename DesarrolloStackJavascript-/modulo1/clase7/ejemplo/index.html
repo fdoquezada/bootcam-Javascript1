@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Deporte</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <h2>FORMULARIO DE CONTACTO:</h2>
+<form action="enviar-formulario.php" method="post"><label>Nombre:</label>
+<input maxlength="50" name="nombre" required size="50" type="text" autofocus placeholder="Escribe tu nombre" /><label>Email:</label>
+<input name="email" required type="email" placeholder="Escribe tu email" />
+<label>Teléfono</label>
+<input name="telefono" pattern="[0-9]{9}" required type="tel" placeholder="XXXXXXXXX" />
+<label form="cars">Selecciona tu pais:</label>
+<select name="pais" required>
+<option value="chile">Chile</option>
+<option value="Argentina">chile</option>
+<option value="Peru">Peru</option>
+</select>
+<datalist id="aficiones">
+<option value="Viajar"></option>
+<option value="Leer"></option></datalist>
+<input name="fecha" type="date" />
+<label>Hora:</label>
+<input type="time" name="hora">
+<textarea cols="80" name="observaciones" rows="8">
+Puedes escribir aquí tus observaciones...</textarea>
+<input type="submit" value="Enviar" />
+</form>
+<div>
+    <h3>Encuentranos en chile en:</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2442.3315052781963!2d-70.72034994705193!3d-32.74847884137452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x968816ceba63aaab%3A0x3c491c7f6911978b!2sCentro%20Veterinario%20PuntoVet!5e0!3m2!1ses-419!2scl!4v1650406131054!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+
+
+</body>

@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(93, 194, 219);
+}
+img {
+    display: block;
+    margin: 0px auto;
+    max-width: 50%;
+    max-height: 50%;
+    text-align: center;
+    border-style: outset; border-width: 10px; 
+}
+
+.disco{
+    color: rgb(47, 64, 223);
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+.listadetemas {
+    color: rgb(22, 25, 218);
+    text-align: center;
+    font-weight: bold;
+    
+
+}
+
+ol{
+    color: rgb(20, 20, 148);
+}
+
+.bibliografia{
+    color: rgb(182, 24, 116);
+}
+ .historialbum{
+     text-align: center;
+     color: blue;
+     
+ }

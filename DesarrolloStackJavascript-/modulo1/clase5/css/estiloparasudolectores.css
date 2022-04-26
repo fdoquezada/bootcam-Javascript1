@@ -1,0 +1,31 @@
+
+/* estilo modo romal*/
+p{
+    background-color: black;
+    color: red;
+}
+
+/* estilo cuando se pasa el mouse por encima*/
+p:hover {
+    background-color: blue;
+    color: yellow; 
+
+
+}
+
+/* formulario , ejemplo :focus*/
+
+input:focus{
+    border-color: blue;
+    border-width: 5px;
+    border-style: solid;
+    background-color: red;
+    color: white;
+}
+
+.activo:focus{
+    border: none;
+    color: black;
+    background-color: burlywood;
+    box-shadow: 5px 5px 5px black;
+}

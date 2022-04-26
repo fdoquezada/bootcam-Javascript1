@@ -1,0 +1,35 @@
+nav {background-color: aqua;
+}
+
+
+section h1 {
+    background-color: rgb(2, 238, 34); font-size;
+    margin-left:10%;
+    margin-right:10%;
+    padding: auto; 
+    margin-top:10px;
+    color: rgba(14, 57, 248, 0.644); font-size;
+    text-align: center;
+}
+
+img {
+    display: flex;
+    width: 75%;
+    margin-left:10%;
+    margin-right:10%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 3px;
+}
+
+h3 {
+    background-color: rgb(32, 72, 204); font-size;
+    margin-left:10%;
+    margin-right:10%;
+    padding: auto; 
+    margin-top:10px;
+    color: rgba(206, 211, 233, 0.644); font-size;
+    text-align: center;
+
+
+    

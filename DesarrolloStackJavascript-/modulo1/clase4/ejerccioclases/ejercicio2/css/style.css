@@ -1,0 +1,33 @@
+/**form {
+    text-align: center;
+    color: red; 
+    letter-spacing: 1;
+    width: 35%;
+    border-style: outset; border-width: 10px; 
+    padding: 10px;
+}
+**/
+
+body {
+    height: 665px;
+    background-image: url("https://png.pngtree.com/background/20210710/original/pngtree-cartoon-pet-footprints-simple-gray-banner-picture-image_1053918.jpg");
+}
+
+.titulo {
+    color: rgb(2, 77, 238);
+    text-align: center;
+}
+
+.formulario {
+    text-align: center;
+    border-bottom: 1px;
+    border-radius: 3px;
+    color: blue;
+}
+
+.boton {
+    color: black;
+
+}
+
+h3

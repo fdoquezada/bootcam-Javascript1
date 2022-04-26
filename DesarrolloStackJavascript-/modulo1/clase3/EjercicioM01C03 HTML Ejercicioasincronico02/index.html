@@ -1,0 +1,80 @@
+<!--HTML - Ejercicio asincrónico 02
+En este ejercicio, deberá crear una versión online de la historia “Elige tu propia
+aventura” . Para eso, siga estos pasos:
+1. Cree en HTML dos plantillas estándar (templates):
+○ Una página que le presente la situación al usuario y le de dos opciones
+de resolución. Le recomendamos que haya una imagen, un texto y dos
+botones con las opciones que lo vinculen a otras situaciones o finales.
+○ Una página con las instancias de resolución para cada caso. Le
+sugerimos que haya un botón que lo invite a volver a jugar.
+Importante: Tenga en cuenta que reutilizará estas plantillas todo el tiempo.
+2. Cree un único archivo .css para controlar la estética de todo el sitio.
+3. Una vez que tenga los templates creados, replique y cambie su contenido.
+4. Vincule las páginas entre sí, haciendo que cada opción le lleve a una página
+distinta.
+5. Cuando termine el ejercicio, súbalo a Github y compartelo por Discord.
+Aclaración:
+La mecánica de estos libros (por si no los conoce).
+Cada página describe una situación de la aventura y le da dos opciones para que
+decida qué hacer. Dependiendo de su elección, le lleva a una página distinta que
+plantea una nueva situación. Así, hasta que gana o pierde la aventura -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elige tu propia aventura</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/avionenvuelo.png"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    crossorigin="anonymous">
+
+
+</head>
+<body>
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link" href="aereo.html">Pagina2</a>
+      </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mailto.html">Pagina3</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="espacio.html">Pagina4</a>
+        </li>
+       
+    </ul>
+    <nav>
+  
+    </nav>
+    <h3>Adivina el medio de transporte</h3> </h3>
+    <img src="img/mediodetransporte.jpg" alt="mi grupo">
+    <h4>¿que opcion tomas ?</h4>
+
+   
+    <button><a href="aereo.html">Aereo</a></button>
+    <button><a href="maritimo.html">Maritino</a></button>
+    <button><a href="submarino.html">Submarino</a></button>
+    <button><a href="espacial.html">Espacial</a></button>
+
+  
+    
+
+    <footer>
+        <div class="text-center p-3" style="background-color: rgba(203, 216, 22, 0.2);">
+        <a target="_blank" href="https://www.youtube.com/watch?v=MJkdaVFHrto">youtube</a><br>
+        <a target="_blank" href="https://www.instagram.com/">Instagram</a><br>
+        <a target="_blank" href="https://es-la.facebook.com/">Facebook</a>
+        <br>Fernado Quezada<br>
+        <a href="mailto:hege@example.com">fdoquezadapuno@gmail.com</a></p>
+        
+        <div class="text-center p-3" style="background-color: rgba(180, 34, 34, 0.2);">
+          © 2022 Copyright:
+          <a class="text-dark" href="http://plataforma5.iicap.cl/">Plataforma5</a>
+        </div>
+        
+    </footer> 
+
+</body>
+</html>

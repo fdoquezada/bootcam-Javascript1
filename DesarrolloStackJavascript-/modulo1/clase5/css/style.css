@@ -1,0 +1,35 @@
+*{
+    /* border-width: 5px;
+    border-color: rgb(0, 119, 255);
+    border-style: dashed;
+} */
+
+div h3 {
+    color: blue;
+}
+/* selector anidado de tres niveles */
+ul li a {
+    color: white;
+    background-color: black;
+    border-color:red;
+    border-top-width: 1px;
+border-style: solid;
+}
+
+/* deficion general de estilo para link*/
+a {
+    background-color: blue;
+
+}
+/* slectror anidado (solo hijo directo)*/
+div > p {
+    color:chartreuse;
+}
+
+/* selector agrupado*/
+a,p, ol{
+    border-color: blue;
+    border-top: 10px;
+    border-style: solid ;
+
+}

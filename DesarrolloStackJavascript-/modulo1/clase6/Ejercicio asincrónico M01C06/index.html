@@ -1,0 +1,180 @@
+<!--- Ejercicio M01 C06
+HTML - Ejercicio asincrónico 02
+Aprendió mucho de Bootstrap. Así que hará una página web que se vea así.
+Requisitos:
+La página tiene que tener estos componentes, dispuestos en este orden:
+● Una Navbar.
+● Una Card.
+● Una fila con tres columnas alineadas.
+1
+● Un formulario en la columna de la izquierda.
+● Un párrafo con texto en la columna de la derecha.
+Esta página tiene que ser responsive. La temática es libre. Puede elegir el tema
+sobre el que hablará su página --->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio M01 C06</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="icon" href="img/goya01.jpg">
+  </head>
+<body>
+    <nav class="navbar navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="http://www.franciscanos.org/oracion/canticobenedictus.htm">Mi pagina</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <br>
+      <br>
+      <br>
+    </nav>
+    <div class="container tarjeta">
+      <div class="card" style="width:400px">
+          <img class="card-img-top" src="img/goya01.jpg" alt="Card image">
+          <div class="card-body">
+            <h5 class="card-title">CÁNTICO DE ZACARÍAS:</h5>
+            <p class="card-text">«Benedictus» (Lc 1, 68-79)</p>
+            <a href="" class="btn btn-primary">See Profile</a>
+          </div>
+        </div>
+    </div>
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            One of three columns
+            <div class="form-group">
+                <form action="">
+                    <label for="">Email <input type="email" name="" id=""></label>
+                    <label for="">Password <input type="password" name="" id=""></label>
+                    <br>
+                    <label for="">Radio <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                          Default radio
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                        <label class="form-check-label" for="exampleRadios2">
+                          Second default radio
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" disabled>
+                        <label class="form-check-label" for="exampleRadios3">
+                          Disabled radio
+                        </label>
+                      </div></label> 
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          Default checkbox
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" disabled>
+                        <label class="form-check-label" for="defaultCheck2">
+                          Disabled checkbox
+                        </label>
+                      </div>
+                    
+                </form>
+            </div>
+          </div>
+          <div class="col-sm">
+            One of three columns
+          </div>
+          <div class="col-sm codo">
+            
+
+    68Bendito sea el Señor, Dios de Israel,
+    porque ha visitado y redimido a su pueblo,
+    69suscitándonos una fuerza de salvación
+    en la casa de David, su siervo,
+    70según lo había predicho desde antiguo
+    por boca de sus santos profetas.
+
+    71Es la salvación que nos libra de nuestros enemigos
+    y de la mano de todos los que nos odian;
+    72realizando la misericordia
+    que tuvo con nuestros padres,
+    recordando su santa alianza
+    73y el juramento que juró a nuestro padre Abrahán.
+
+    74Para concedernos que, libres de temor,
+    arrancados de la mano de los enemigos,
+    75le sirvamos con santidad y justicia,
+    en su presencia, todos nuestros días.
+
+    76Y a ti, niño, te llamarán profeta del Altísimo,
+    porque irás delante del Señor
+    a preparar sus caminos,
+    77anunciando a su pueblo la salvación,
+    el perdón de sus pecados.
+
+    78Por la entrañable misericordia de nuestro Dios,
+    nos visitará el sol que nace de lo alto,
+    79para iluminar a los que viven en tinieblas
+    y en sombra de muerte,
+    para guiar nuestros pasos
+    por el camino de la paz.
+
+          </div>
+        </div>
+      </div>
+  <footer>
+        <div class="text-center p-3" style="background-color: rgba(203, 216, 22, 0.2);">
+        <a target="_blank" href="https://www.youtube.com/watch?v=MJkdaVFHrto">youtube</a><br>
+        <a target="_blank" href="https://www.instagram.com/">Instagram</a><br>
+        <a target="_blank" href="https://es-la.facebook.com/">Facebook</a>
+        <br>Fernado Quezada Puño<br>
+        <a href="mailto:hege@example.com">fdoquezadapuno@gmail.com</a></p>
+        <div class="text-center p-3" style="background-color: rgba(180, 34, 34, 0.2);">
+          © 2022 Copyright:
+          <p>Directo a  <a href="http://plataforma5.iicap.cl/" target="_blank" rel="noopener noreferrer">Plataforma5</a>.</p>
+        </div>
+        
+    </footer>  
+</body>
+</html>

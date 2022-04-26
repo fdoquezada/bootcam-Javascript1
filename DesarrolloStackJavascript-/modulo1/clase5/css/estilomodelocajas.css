@@ -1,0 +1,16 @@
+div{
+    borde-color: red;
+    border-top-width: 1px;
+    border-style: solid;
+}
+/* estilos equivalentes*/
+.margenes{
+    margin-top:10px;
+    margin-right: 40px;
+    margin-bottom: 80px;
+    margin-left:200px;
+}
+ .margenes{
+     margin : 10px 40px 80px 
+     
+ }
