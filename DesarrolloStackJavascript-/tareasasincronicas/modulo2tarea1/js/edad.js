@@ -60,8 +60,12 @@ var tuquedad = tiempo - useredad ;
  alert("para eso necesoitaras"  + chutaquecomes +  "... "+ snacks + "  para que te alacance hasta los "+tiempo+" dias");
 
 var precio = prompt(`${userName} ¿Cual es el precio de los snacks?`);
+
 var gastototal = chutaquecomes * precio;
-alert("Compraras $"+gastototal+" en comida por el resto de tu vida.");
+
+alert("Compraras $"+gastototal+" en comida para resto de tu vida.");
+
+alert(` ${userName} Gracias por usar nuestra calculadora de edad ten un buen dia`);
 
 
 
