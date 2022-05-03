@@ -225,3 +225,24 @@ for (let elemento in auto){
     
 }
 console.log("********* separador**************");
+//crear un objeto pokemon que propiedades que lo define
+//numero
+//nombre
+//tipo
+//2 ataques: funciones p
+
+poquemon ={
+    numero:1,
+    nombre:"pikachu",
+    tipo:"electrico",
+    ataques:[{
+        ataque:"inpack",
+        potencia:10,
+    },{
+        ataque:"thunderbolt",
+        potencia:20,
+    }
+    ]
+}
+
+console.log(poquemon)
