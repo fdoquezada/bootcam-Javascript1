@@ -13,3 +13,8 @@ input.addEventListener("keyup", function(){
 input.innerHTML = (input type="text" name="text" value="");
 
 
+let arreglo = [10, 11, 3, 20, 5];
+
+let mayorQueDiez = arreglo.filter(element => element > 10);
+
+console.log(mayorQueDiez)
