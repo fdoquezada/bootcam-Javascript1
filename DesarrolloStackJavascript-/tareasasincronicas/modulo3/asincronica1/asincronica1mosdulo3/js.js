@@ -12,7 +12,7 @@
 // mostrarLibro desde cada Objeto
 
 class libros{
-    constructor(nombre_del_fibro, autor, editorial, genero){
+    constructor(nombre_del_libro, autor, editorial, genero){
         this.nombre_del_libro = nombre_del_ibro; 
         this.autor = autor;
         this.editorial = editorial;
@@ -26,3 +26,7 @@ const libro3 = new libros("El señor de los anillos", "J.R.R. Tolkien", "Minotau
 console.log(libro1);
 console.log(libro2);
 console.log(libro3);
+
+
+let libros = [nombre_del_ibro, editorial, genero];
+console.log(libros[1]);
