@@ -13,7 +13,7 @@
 
 class libros{
     constructor(nombre_del_libro, autor, editorial, genero){
-        this.nombre_del_libro = nombre_del_ibro; 
+        this.nombre_del_libro = nombre_del_libro; 
         this.autor = autor;
         this.editorial = editorial;
         this.genero = genero;
@@ -28,5 +28,5 @@ console.log(libro2);
 console.log(libro3);
 
 
-let libros = [nombre_del_ibro, editorial, genero];
-console.log(libros[1]);
+let Libros=["nombre", "autor","editorial", "genero"];
+console.table(libro1);

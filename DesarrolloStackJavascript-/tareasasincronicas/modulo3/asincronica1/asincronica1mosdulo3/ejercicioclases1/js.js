@@ -11,10 +11,14 @@ class animal {
         this.nombre = nombre;
         this.cantidadPatas = cantidadPatas;
         this.alimento = alimento;
-    }
+    }mansdarAcomer(){
+        return ("nombre del animal: " + this.nombre  + "tiene:   " + this.cantidadPatas + " su alimento es :  " + this.alimento);
+}
 }
 let animal1 = new animal("leon", 4, "carne");
 console.log(animal1);
+console.log(animal1.mansdarAcomer());
+
 
 
 
