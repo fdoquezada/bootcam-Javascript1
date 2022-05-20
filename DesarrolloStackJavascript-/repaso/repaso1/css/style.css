@@ -1,0 +1,50 @@
+/*cambio todos los elementos  que pertenecen */
+
+h1{
+    background-color: aqua;
+    color: blue;
+}
+
+#titulo2{
+    border-radius: 2px;
+    border-style: dashed;
+    border-color: brown;
+    background-color: yellow;
+    color: white;
+    width: 50%;/* con%  es adaptable . con px es fijo /rem y em son las que mas se usan , son jijas*/
+}
+
+.titulo{
+    box-shadow: 10px 10px 5px red;
+    width:50%;
+}
+
+.alternativo{
+    box-shadow: 10px 10px 30px blue;
+
+
+}
+
+.contradiccion{
+    border-width: 10 px;
+    border-style: dashed;
+    border-color: chartreuse
+}
+/*aplicado para parrafos que estan dentro de un div*/
+div p{
+    background-color: brown;
+    color: white;
+
+}
+/*aplicando solo a elemnetos p con la clase parrafos*/
+div p.parrafo{
+    background-color: green;
+    color: white;
+}
+
+/*
+orden de importancia de css:
+id
+clases(de arriba hacia abajo)
+etiqueta
+*/
