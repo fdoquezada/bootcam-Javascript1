@@ -1,14 +1,27 @@
+
 body{
-  background-color: #232323;
+  background-color:  #232323;
 }
-
-
 .square{
-  float:left;
-  width:30%;
-  height:0;
-  padding-bottom: 30%;
-  margin:0 auto;
-  
-
+  width: 130px;
+  height: 100px;
+  background-color: bisque;
+  float: left;
+  padding-bottom: 30px;
+  margin: 10px;
 }
+.container{
+  max-width: 500px;
+  margin: 0 auto;
+}
+h1{
+  color: aliceblue;
+  text-align: center;
+}
+#mensaje{
+  color: aliceblue;
+  text-align: center;
+  font-size: 52px;
+}
+label{
+  color:white;}
