@@ -1,10 +1,15 @@
+<<<<<<< HEAD
 {
   background-color: #232323;
   text-align: center;
+=======
+
+body{
+  background-color:  #232323;
+>>>>>>> 4c6a4612a064c8e488cc834ae7deb308c1a27e45
 }
-
-
 .square{
+<<<<<<< HEAD
   float:left;
   width:30%;
   height:0;
@@ -81,3 +86,27 @@ h1 {
   margin-top: 10px;
   border: 1px solid #000; */
  
+=======
+  width: 130px;
+  height: 100px;
+  background-color: bisque;
+  float: left;
+  padding-bottom: 30px;
+  margin: 10px;
+}
+.container{
+  max-width: 500px;
+  margin: 0 auto;
+}
+h1{
+  color: aliceblue;
+  text-align: center;
+}
+#mensaje{
+  color: aliceblue;
+  text-align: center;
+  font-size: 52px;
+}
+label{
+  color:white;}
+>>>>>>> 4c6a4612a064c8e488cc834ae7deb308c1a27e45
