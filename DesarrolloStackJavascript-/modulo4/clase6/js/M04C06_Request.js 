@@ -1,0 +1,53 @@
+//crear url
+var url1=new URL("https://www.google.cl/search?q=animales");
+console.log(url1);
+
+var url2=new URL("https://www.google.cl");
+url2.searchParams.append("q","animales");
+console.log(url2);
+
+var url3=new Url("https://www.google.cl/");
+url3.searchParams.append("q","ñandu");
+console.log(url3);
+
+//construir la url para traer los datos de  los primero 100 pokemons
+//https://pokeapi.co/api/v2/pokemon/?limit=100
+//construir la url para traer los datos de un pokemon
+var pokeurl= new URL("https://pokeapi.co/api/v2");
+pokeurl.searchParams.append( "limit","100");
+pokeurl.searchParams.append( "offset","0");
+console.log(pokeurl);
+
+//optener valor de un parametro
+console.log(pokeurl.searchParams.get("limit"));//true
+console.log(pokeurl.searchParams.get("name"));//false
+
+
+console.log("***********************************************")
+
+//creamos un objeto request
+var respuesta=new XMLDocument();
+
+request.addEventListener("load",function(a){
+    console.log("listo");
+    console.log("status code: ", + request.status  );
+    console.log("status", + request.statusText  );
+    console.log("response", + request.response  );
+    console.log("responseText", + request.responseText  );
+   
+})
+//implementar el evento para cuando cambie el estado de la request
+request.onreadystatechange=function(){
+    if8(request.readyState==3){
+    console.log("loading");
+    }else if (request.readyState==4){
+        console.log("finalizado");
+        console.log(request.response);
+    }
+}
+
+//inicializar 
+request.open("GET","https://dog.ceo/api/breeds/image/random",true);
+
+//ejecutar
+request.send();
