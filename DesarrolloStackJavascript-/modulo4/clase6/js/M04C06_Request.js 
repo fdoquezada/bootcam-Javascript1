@@ -37,8 +37,16 @@ request.addEventListener("load",function(a){
    
 })
 //implementar el evento para cuando cambie el estado de la request
-request.onreadystatechange=function(){
-    if8(request.readyState==3){
+request.onreadystatechange=function(//unsent,opened,headers_recived,loading,done){
+    if(request.readyState==0){
+        console.log("iniciando");
+
+    }else if (request.readyState==1){
+        console.log("abrienddo");
+    }else if (request.readyState==2){
+        console.log("headers recividos");{
+
+    }else if(request.readyState==3){
     console.log("loading");
     }else if (request.readyState==4){
         console.log("finalizado");
@@ -50,4 +58,32 @@ request.onreadystatechange=function(){
 request.open("GET","https://dog.ceo/api/breeds/image/random",true);
 
 //ejecutar
-request.send();
+//request.send();
+
+
+
+
+
+
+//se crea el request
+var request=new XMLHttpRequest();
+//abrir la request
+request.open("PUT","https://regres.in/api/users/2",true);
+//agregar  header
+reques2.setRequestHeader.("Ccontente-type","application/json");
+//agregar evento
+request.addEventListener("load",function(a){
+    console.log(reques2.status);
+    console.log(reques2.response);
+})
+//generar datos
+var usuario={
+    id:2,
+    name:"Fernando"
+    job:"desarrolador web"
+    email:"fdoquezadapuno@gmail.com"
+}
+//enviar
+reques2.send(JSON.stringify(usuario));
+
+
