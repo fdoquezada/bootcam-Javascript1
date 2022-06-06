@@ -1,42 +1,61 @@
 //toda la ejecucuion del programa se inicia dentro de la funcion main()
-$(document).ready(function(){
-    //la funncion es equivalente a : nombre
-    //documente.querySelector()
-    $("h1").text("Con Jquery");
-    //document.querySelector("h1").innerHTML="sin Jquery";
-    //caragar parrafo cocontador
-    let parrafo=$("p");
-    console.log(parrafo);
-    console.log(parrafo.text());//para ler el inertext
-    parrafo.text("texto cambiado");//para escribir el innertext
-    $("p").text("texto cambiado 2");//cambio directo sin variable
-    $("#segundo").text("segundo parrafo ");
-    //selecionar el segundo titulo (equivalante a stylesheet    
-    $("#titulo2").css("color","red");
-    //cambiar el color del segundo parrafo
-    $("#titulo2").click(function(){
-        $("#titulo2").css("color","lightblue");
-    })
-    })
+var input = document.querySelector(".input");
+var botonAgregar = document.querySelector(".boton-agregar");
 
-    $("#lista").css("color","violet");
-    /* $("#lista").click(function(){
-    $("#lista").css("color","lightblue");   
-    }
-    ) */
-    $("#lista").children().css("background-color","black");
+class Item {
+    constructor(nuevaTarea){
+        this.nuevaTarea=nuevaTarea;
+        this.crearDiv = function (){
 
-    //cambio de color de fondo a los hijos
-    $("#lista").children().css("color","white");
+            var candado = document.createElement("button");
+            var borrar = document.createElement("button");
+            var container = document.querySelector(".container");
+            var inputNew= document.createElement("input");          
+            var nuevoDiv = document.createElement("div");
 
-    //cambiar el color de fondo de todo lo que esta al einterior del segundo
-    $("#segundo").children().css("background-color","black");
-//cambiar el color de fondo de lo que estas al interiror 
-    $("li").even().css("background-color","blue");
-//con pseudeselector
-    $("li:odd").css("background-color","yellow");
+            inputNew.className='item-input';
+            candado.className='item-input boton-editar';
+            borrar.className='item-input boton-remover';
+            inputNew.disabled = true; 
+            inputNew.value=this.nuevaTarea;
+            candado.innerHTML='<i class="fa-solid fa-lock"></i>';
+            borrar.innerHTML='<i class="fa-solid fa-trash"></i>';
+        
+            var array = [];
+            array.push(inputNew);
+            array.push(candado);
+            array.push(borrar);
+            
+            nuevoDiv.appendChild(array[0]);
+            nuevoDiv.appendChild(array[1]);
+            nuevoDiv.appendChild(array[2]);
+            container.appendChild(nuevoDiv);
+            candado.addEventListener("click", function(){
+                if (inputNew.disabled === true) {
+                    candado.innerHTML='<i class="fa-solid fa-lock-open"></i>';
+                    inputNew.disabled = false; 
+                } else {
+                    candado.innerHTML='<i class="fa-solid fa-lock"></i>';
+                    inputNew.disabled = true; 
+                };
+            });
+            
+            borrar.addEventListener("click", function(){
+                nuevoDiv.remove();
+            });         
+        };
+    };
+};
 
-//evivalente a un for (I=0;I<coleccion li.length;I++)   
-    $("ul").children().each(function(i,e){
-    $(e).text(i);
-    })
+botonAgregar.addEventListener("click", function(){
+    chequearInput();
+});
+
+function chequearInput(){
+    if(!input.value ==''){
+        
+        var dataInput = new Item(input.value);
+        dataInput.crearDiv();
+        input.value='';
+    };
+};
