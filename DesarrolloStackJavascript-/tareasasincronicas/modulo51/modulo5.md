@@ -2,6 +2,21 @@
 ### 🛠️ Languages and Tools:
 ![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=flat&logo=javascript)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white)
+<br>
+<br> 
+   <a href="https://www.linkedin.com/in/fernando-quezada-pu%C3%B1o-0b99b957/" class="social-media-icon">
+   <img align="left" alt="Piyush Pravin | Linkedin" width="24px" src="https://github.com/piyushP7pravin/piyushP7pravin/blob/master/Linkedin.svg" />
+  </a>
+  <a href="mailto:fdoquezadapuno@gmail.com">
+    <img align="left" alt="Piyush Pravin | Gmail" width="26px" src="https://github.com/piyushP7pravin/piyushP7pravin/blob/master/Gmail.svg"/>
+ </a>
+    <a href="https://www.instagram.com/elferna_2/" class="social-media-icon">
+    <img align="left" alt="Piyush Pravin | Instagram" width="24px" src="https://github.com/piyushP7pravin/piyushP7pravin/blob/master/Instagram.svg" />
+  </a>
+<br>
+<br>
+       
+
 
 # Ejercicio M05 C01
 ## Base de datos PostgreSQL - Ejercicio asincrónico 01
@@ -42,4 +57,4 @@ Al igual que en los trabajos anteriores deberá enviar a Github las imágenes de
 tablas completas.
 ![asincronico3mosdulo5](https://user-images.githubusercontent.com/86123944/173222450-30f955e1-b17c-47c2-bc01-79e46f3da868.jpg)
 
-
+ 
