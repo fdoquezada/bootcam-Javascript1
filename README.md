@@ -1,3 +1,3 @@
-Hola GitHub Fans, soy Fernando Quezada Fans 👋
-🛠️ Languages and Tools:
-JavaScript Python
+## Hola GitHub Fans, soy Fernando Quezada Fans 👋
+# 🛠️ Languages and Tools:
+
