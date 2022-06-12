@@ -46,7 +46,7 @@ Importante: tiene que enviar las capturas de pantalla de pgAdmin y de psql.
 ![asincronico2amosdulo5](https://user-images.githubusercontent.com/86123944/173221065-73afbc0a-47a4-4d1c-a725-6f16a1aa5f76.jpg)
 
 # Ejercicio M05 C03
-## Base de datos PostgreSQL - Ejercicio asincrónico 02
+## Base de datos PostgreSQL - Ejercicio asincrónico 03
 
 >Continuamos trabajando con la Base de Datos perteneciente a MedicAsistence, debe
 ingresar datos y columnas a las tablas.
