@@ -1,3 +1,7 @@
+## Hola GitHub Fans, soy Fernando Quezada  👋
+![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=flat&logo=javascript)
+
+
 # Ejercicio final - evaluación M04 C08
 ## Lista de tareas
 ### Retoques finales
