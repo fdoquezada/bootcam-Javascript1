@@ -60,7 +60,9 @@ tablas completas.
 
 ![asincronico3mosdulo5](https://user-images.githubusercontent.com/86123944/173253038-bebf6e41-2c4e-4137-ac4a-dc650b16ebce.jpg)
 
--tabla Pacientes con sus Columnas
+- tabla Pacientes con sus Columnas
+
+![asincronico3amosdulo5](https://user-images.githubusercontent.com/86123944/173253554-e6a51222-1b80-4231-8c4a-2ad020a2ebd7.jpg)
 
 
  
