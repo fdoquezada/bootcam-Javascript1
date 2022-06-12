@@ -40,6 +40,7 @@ La tabla Pacientes tendrá un id, nombre apellido, rut y teléfono.
 Deberá ingresar 10 pacientes y 5 médicos en sus respectivas tablas.
 Al igual que en los trabajos anteriores deberá enviar a Github las imágenes de las
 tablas completas.
+
 ![asincronico3mosdulo5](https://user-images.githubusercontent.com/86123944/173222029-16f3854a-97d1-4d6c-8b4e-dd88d01fa26f.jpg)
 
 
