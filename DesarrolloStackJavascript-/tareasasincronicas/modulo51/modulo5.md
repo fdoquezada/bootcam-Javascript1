@@ -70,6 +70,12 @@ tablas completas.
 ![image](https://user-images.githubusercontent.com/86123944/173254109-16a5e85e-5da5-4060-a568-9438367bf833.png)
 
 
+- Ingreso 10 Pacientes tabla Medicos
+
+![asincronicoingresopasientesamosdulo5](https://user-images.githubusercontent.com/86123944/173255145-3145c9fd-ee1b-4ff5-9c66-00dfee3b7031.jpg)
+
+
+
 
 
  
