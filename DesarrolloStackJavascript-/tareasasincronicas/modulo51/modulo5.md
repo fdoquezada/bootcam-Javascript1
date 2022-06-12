@@ -56,7 +56,11 @@ Deberá ingresar 10 pacientes y 5 médicos en sus respectivas tablas.
 Al igual que en los trabajos anteriores deberá enviar a Github las imágenes de las
 tablas completas.
 
+- Tabla Medicos con sus columnas
+
 ![asincronico3mosdulo5](https://user-images.githubusercontent.com/86123944/173253038-bebf6e41-2c4e-4137-ac4a-dc650b16ebce.jpg)
+
+-tabla Pacientes con sus Columnas
 
 
  
