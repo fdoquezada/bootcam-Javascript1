@@ -20,5 +20,6 @@ Importante: tiene que enviar las capturas de pantalla de pgAdmin y de psql.
 
 ![image](https://user-images.githubusercontent.com/86123944/173220911-74330d6f-0465-4d27-b755-51ff7b70004a.png)
 
+- tabla con el nombre Pacientes
 
 ![asincronico2amosdulo5](https://user-images.githubusercontent.com/86123944/173221065-73afbc0a-47a4-4d1c-a725-6f16a1aa5f76.jpg)
