@@ -12,6 +12,7 @@ subirá a Github como si fuera un HTML o un JS.
 
 ![asincronico1mosdulo5](https://user-images.githubusercontent.com/86123944/173220442-c7c95a72-d9a7-413e-9062-f16c8bf67fa2.jpg)
 
+# Ejercicio M05 C02
 ## Base de datos PostgreSQL - Ejercicio asincrónico 02
 
 >Base de datos PostgreSQL - Ejercicio asincrónico 01
@@ -27,3 +28,15 @@ Importante: tiene que enviar las capturas de pantalla de pgAdmin y de psql.
 - tabla con el nombre Pacientes
 
 ![asincronico2amosdulo5](https://user-images.githubusercontent.com/86123944/173221065-73afbc0a-47a4-4d1c-a725-6f16a1aa5f76.jpg)
+
+# Ejercicio M05 C03
+## Base de datos PostgreSQL - Ejercicio asincrónico 02
+
+>Continuamos trabajando con la Base de Datos perteneciente a MedicAsistence, debe
+ingresar datos y columnas a las tablas.
+La tabla Médicos tendrá un id, nombre, apellido, n° de matrícula y especialidad.
+La tabla Pacientes tendrá un id, nombre apellido, rut y teléfono.
+Deberá ingresar 10 pacientes y 5 médicos en sus respectivas tablas.
+Al igual que en los trabajos anteriores deberá enviar a Github las imágenes de las
+tablas completas.
+
