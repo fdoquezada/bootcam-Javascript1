@@ -2,6 +2,7 @@
 ### 🛠️ Languages and Tools:
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=flat&logo=javascript)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white)
 
 
 # Ejercicio final - evaluación M04 C08
