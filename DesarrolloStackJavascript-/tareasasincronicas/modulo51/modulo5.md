@@ -64,6 +64,9 @@ tablas completas.
 
 ![asincronico3amosdulo5](https://user-images.githubusercontent.com/86123944/173253554-e6a51222-1b80-4231-8c4a-2ad020a2ebd7.jpg)
 
+
+- Ingreso 5 medicos tabla Medicos
+
 ![image](https://user-images.githubusercontent.com/86123944/173254109-16a5e85e-5da5-4060-a568-9438367bf833.png)
 
 
