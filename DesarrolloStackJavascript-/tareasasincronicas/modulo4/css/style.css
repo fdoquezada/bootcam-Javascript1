@@ -1,34 +1,55 @@
-body {
-    background-color: rgb(30, 48, 209);
-    color: white;
-    text-align: center; text-decoration: double;
-}
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Koulen&family=PT+Serif:ital,wght@1,700&family=Press+Start+2P&family=Public+Sans:wght@200&family=Roboto&family=Seymour+One&family=Signika+Negative:wght@700&family=Source+Sans+Pro:wght@200&family=Titan+One&display=swap');
+*{
+    font-family: 'Akshar', sans-serif;
+ }
 
-#header{
-    background-color: #4CAF50;
-    color: white;
+body{
+    margin: auto;
     text-align: center;
-    padding: 5px;
+    align-items: center;
+    background-color: #1818df;
+    color: white;
 }
-
-.input{
-    width: 450px;
-    height: 50px;
+.input-div{
+    width: 600px;
+    margin: auto;
+}
+h1{
+    font-size: 50px;
+}
+input{
+    width: 400px;
+    height:60px;
     margin: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 5px;
-    
-    
-} 
-
-    
-.button{
-    background-color: #1ed124;
-    color: rgb(180, 27, 27);
-    padding: 14px 20px;
-    margin: 8px 0;
+    padding: 0px,20px,0px,20px;
+    border-radius: 10px;
+    outline: none;
     border: none;
-    border-radius: 4px;
-    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    color: black;
 }
+ button{
+    background-color: #5959de;
+    border: none;
+    outline: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 2.5px;
+    cursor: pointer;
+}  
+.btn-agregar{
+    width:50px;
+    height: 50px;
+    margin: 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #5959de;
+    cursor: pointer;
+
+}
+button:hover{
+    opacity: 0.5;
+}  
