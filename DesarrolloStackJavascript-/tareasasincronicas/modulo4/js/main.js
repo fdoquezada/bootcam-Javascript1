@@ -55,7 +55,7 @@ function validar(){
         inputTarea.value="";
         inputTarea.focus();
     }else{
-        alert("Por favor ingrese una tarea");
+        alert("Por favor ingrese una tarea!");
     }
 }
 inputTarea.addEventListener("keyup", function(e){
