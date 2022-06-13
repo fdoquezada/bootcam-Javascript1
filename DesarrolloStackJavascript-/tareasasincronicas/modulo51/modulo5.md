@@ -97,6 +97,7 @@ ser nombrado para la consulta como “longitud_titulo”.
 - 8. Consultar cual es la longitud más grande entre todos los títulos de las películas.
 
 
+![asincornico05 modulo5](https://user-images.githubusercontent.com/86123944/173260348-13c2d6c0-39b9-4383-86d5-a69b16b875cc.jpg)
 
 
 
