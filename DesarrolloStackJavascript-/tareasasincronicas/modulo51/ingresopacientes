@@ -1,0 +1,5 @@
+SELECT * FROM "Medicos";
+
+INSERT INTO public."Medicos"(
+	id, "Nombre", "Apellido", numeromatricula, "Especialidad")
+	VALUES (1,'Cristian', 'Valdes', 1501,'Traumatologia'),(2,'Ricchar', 'Oregon', 1502,'Cirujano'),(3,'Pedro', 'Pascal', 1503,'Geriatra'),(4,'Marcela', 'Stone', 1504,'Psicologia'),(5,'Ana', 'Olivares', 1505,'Cardiologia pediatrica');
