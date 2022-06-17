@@ -1,0 +1,8 @@
+SELECT * FROM "Autores";
+SELECT * FROM "Libros";
+SELECT * FROM "Prestamos";
+SELECT * FROM "Socios";
+
+INSERT INTO public."Socios"(
+	"Rut ", "Nombre", "Apellido", "Direccion", "Telefono")
+	VALUES (?, ?, ?, ?, ?);
