@@ -9,4 +9,23 @@ fs.readFile("ejemploa.txt",function(err,data){
         console.log(data.toString());
 
     }
+});
+
+//sobreescribir un archivo
+fs.writeFile("ejemeplo2.txt","texto de ejemplo 2",function(err){
+    if(err){
+        console.log(eer.message);
+        
+    }else{
+        console.log("Archivo guardalo correctamante")
+    }
+})
+
+fs.appendFile("ejemeplo2.txt","texto de ejemplo 2",function(err){
+    if(err){
+        console.log(eer.message);
+        
+    }else{
+        console.log("Archivo guardalo correctamante")
+    }
 })
