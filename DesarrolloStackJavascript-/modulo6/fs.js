@@ -19,13 +19,28 @@ fs.writeFile("ejemeplo2.txt","texto de ejemplo 2",function(err){
     }else{
         console.log("Archivo guardalo correctamante")
     }
-})
+});
 
-fs.appendFile("ejemeplo2.txt","texto de ejemplo 2",function(err){
+fs.appendFile("ejemplo2.txt","texto de ejemplo 2",function(err){
     if(err){
         console.log(eer.message);
         
     }else{
         console.log("Archivo guardalo correctamante")
     }
-})
+});
+//abrir archivo 
+fs.open('ejemplo4.txt',"w",function(err,fd){
+    if(err){
+        console.log(err.menssage);
+    }else{
+        console.log("archivo abierto correctamente");
+    }
+});
+fs.unlink('basura.txt',"w",function(err,fd){
+    if(err){
+        console.log(err.menssage);
+    }else{
+        console.log("archivo eliminado correctamante");
+    }
+});
