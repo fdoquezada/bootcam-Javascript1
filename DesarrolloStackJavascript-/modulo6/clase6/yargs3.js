@@ -1,9 +1,34 @@
-//1 importar lireria o mnodulos yargs
+//1.- importar libreria o módulo YARGS
 var yargs=require('yargs');
 var chalk=require('chalk');
-function validarLogin(user.pass){
-    if(user =="fernando" && pass == "123456"){
-        console.log(chalk.green.inverse("acceso correcto. login"))
+//2.- crear una función que 
+function validarLogin(user,pass){
+    if(user=='fernando' && pass=='12345'){
+        console.log(chalk.green.inverse("acceso corrrecto. login iniciado satisfactoriamente"));
+    }else{
+        console.log(chalk.red.inverse("error al iniciar sesión. revise usuario o password"));
     }
-    console.log("acceso correcto .login ")
 }
+//3.-crear el comando "login"
+yargs.command({
+    command:'login',
+    describe:'este comando sirve para loguearse',
+    builder:{
+        usuario:{
+            describe:'nombre de usuario',
+            demandOption:true,
+            default:'ingrese su nombre de usuario',
+            type:'string'
+        },
+        password:{
+            describe:'password de la cuenta',
+            demandOption:true,
+            default:'ingrese su contraseña',
+            type:'string'
+        }
+    },
+    handler:function(args){
+        validarLogin(args.usuario,args.password);
+    }
+});
+yargs.parse(); //ejecucion del comando
