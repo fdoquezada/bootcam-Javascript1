@@ -18,19 +18,25 @@ function logGlobal(req,res,next){
     console.log("url: "+req.url);
     next();
 } 
-app.use(logGlobal)
-// agregar un middleware especifico para el formulario
-/* var revisionNumeros=function(req,res.next){
+app.use(logGlobal);
+//-----------------------------------------------------------
+//agregar un middleware específico para el formulario
+var revisionNumeros = function(req,res,next){
     //para el get
-    if(req.method=='Get'){
+    console.log(req.method);
+    if(req.method=='GET'){
+        
         let num1=req.query.numero1;
         let num2=req.query.numero2;
         if(!Number(num1) || !Number(num2)){
-
+            res.send("Error en los datos");
+            return;
+        }else{
+            next();
         }
-
     }
-} */
+}
+app.use('/html/calcular',revisionNumeros);
 
 app.get("/html/calcular",function(req,res){
     let num1=req.query.numero1;
