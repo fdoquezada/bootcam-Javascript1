@@ -5,12 +5,14 @@
   "main": "clase3.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon clase3.js"
+    "dev": "nodemon clase3.js",
+    "dev1": "nodemon clase3_ejs.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^3.1.8",
     "express": "^4.18.1",
     "hbs": "^4.2.0",
     "morgan": "^1.10.0",

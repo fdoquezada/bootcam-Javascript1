@@ -16,7 +16,7 @@ const app =  new express();
 app.use(express.static("public"));
 
 //aqui le indicamos a express que use hbs para las vistas
-app.set("view engine", "hbs");
+app.set("view engine", "ejs");
 
 //crear una carpeta llamada views y establacer la ruta en express
 app.set("views",__dirname+"/views");
@@ -27,27 +27,30 @@ app.set("views",__dirname+"/views");
 
 
 
-hbs.registerPartials(__dirname + '/views/partials', function(err){
 
-});
+
 app.use(morgan("dev"));
 
-const datosPagina1={
-    titulo:"hola desde partials!!",
-    subtitulo:"hola desde javascript"
+const datos={
+    texto:"hoy es martes",
+    precio:499,0
+    alimentos:["pan","mantequilla", "mermelada", "cecinas"],0
+    subtitulo:"mensaje enviado desde js "
 }
 
-
 app.get('/', (req, res) => {
-    res.render('vistaclase3_1',datosPagina1)
+    res.render('ejemplo_ejs.ejs', datos)
    
 })
 
+
+
+/* 
 const datos=["pan","mantequilla", "mermelada", "cecinas"];
 
 app.get('/partial2', (req, res) =>{
     res.render('vistaclase3_2', {lista:datos})
-})
+}) */
 const port = 3000
 
 app.listen(port, () => console.log(`Estamos escuchando en el puerto  ${port} siiiiiiii!`))

@@ -1,0 +1,18 @@
+<%- include("./partials/cabecera")  %> 
+<%- include("./partials/navbar")  %>
+
+<h1>hola desde galeria</h1>
+
+<div class="container text-center"></div>
+    <div class="row row-cols-auto">
+        <% for( i =0; i  < libros.length; index++ ) { %>
+            <div class="col" style="margin-bottom:20px;">
+                <%- include("./partials/card.ejs",libros[i])%> 
+            </div>
+        <% } %>
+    </div>
+</div>
+
+
+<%- include ("./partials/footer") %> 
+<%- include ("./partials/pie") %> 

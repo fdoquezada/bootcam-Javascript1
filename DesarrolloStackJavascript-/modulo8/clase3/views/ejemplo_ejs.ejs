@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <%- include ("./partials/header",{subtitulo:"hola desde vista"}) %>
+
+
+
+
+
+        <h1>hola fernando una vista con ejs</h1>
+        <p> dato enviado desde js: <%= texto %> </p>
+
+        <h3> render condicional (if)</h3>
+        <% if (precio>500) { %>
+            <p style="color:red;"> El color esta caro</p>
+        <% } else { %>
+             <p style="color:green;">El producto esta barato</p>
+         
+        <% } %>
+        <h3> interacion (for)</h3>
+        <ul>
+            <% for( i=0; i<alimentos.length; i++) {%>
+                <li><%= alimentos[i] %></li>    
+            <% } %>
+
+        </ul>
+    </body>
+</html>
