@@ -3,7 +3,7 @@ const {Pool}=require("pg");
 const configuracion={
     user:process.env.PGUSER,
     host:process.env.PGHOST,
-    database:precess.env.PGDATABASE,
+    database:process.env.PGDATABASE,
     password:process.env.PGPASSWORD
 }
 const conexion=new Pool(configuracion);
