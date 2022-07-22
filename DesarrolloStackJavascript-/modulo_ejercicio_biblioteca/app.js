@@ -4,6 +4,7 @@ const {conexion}=require("./bd");
 const fs=require("fs");
 const upload=require("express-fileupload");
 const path=require("path")
+const morgan= require("morgan")
 
 
 //incializacion
@@ -11,7 +12,7 @@ const app=new express();
 app.use(express.static("public"));
 app.set("view engine","ejs");
 app.set("views",__dirname+"/views");
-
+app.use(morgan("dev"))
 //rutas
 //raiz
 app.get('/', (req, res) => {
@@ -115,7 +116,25 @@ app.get("/ingresolibros",async function(req,res){
   
     res.send("OK");
   });
+
   
+  app.get ('/ingresoautores', (req, res) => res.render("ingresoautor"));
+  
+  //app.use(bodyParser.unlecoded({ extends: false}));
+  
+  //ingresamos autores
+  /* app.post("/agregarautor", async function(req,res){
+    const consultaId='SELECT COALESCE(MAX("Id),0)+1 AS "Id From "Autores"';
+    let respuestaId;
+    try {
+      respuestaId = await conexion.query(consultaId);
+    } catch (error) {
+      console.log("error consulta:"+error.message);
+      return res.status(500).send("Error al insertar datos:")
+    }
+    const consultaInsert ='Insert into  "Autores" Values'
+  }
+   */
   
 
 module.exports={app}
